@@ -1,0 +1,126 @@
+/* el archivo css*/
+
+h1, h2, p {
+    text-align: center;
+  }
+
+  h1{
+    font-size:40px;
+    margin-top: 0;
+    margin-bottom:15px;
+ }
+ .address {
+  margin-bottom: 5px;
+}
+ 
+ h2{
+    font-size:30px;
+ }
+
+ hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+ 
+
+  h1, h2 {
+    
+    /* font-family: Impact,serif; */
+    /* Los respaldos se utilizan en instancias donde la inicial no se encuentra/no está disponible */
+    font-family: Impact,serif;
+  }
+
+  body {
+    /*aqui se agrega una imagen como background */
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); 
+    
+
+    /*aqui se agrega una fuente y estilo de letra*/
+    font-family:sans-serif;
+    padding: 20px;
+
+     /* ************* */
+     /* *************** */
+     /* **************** */
+     /* ***************** */
+    /*un ejemeplo de como tu exceptuar un elemento de una clase ,que fue predefinada para todos de su misma clase*/
+    .established {
+      font-style:italic;
+    }
+    /* ********************* */
+    /* ********************* */
+    /* ********************** */
+    /* ********************** */
+
+
+
+  }
+  .menu {
+    width: 80%;
+    max-width:500px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    /*selector {  padding: valor_arriba valor_derecha_abajo_izquierda;} */
+   /* div { padding: 10px 20px 15px 30px; }*/
+
+    padding: 20px 20px 20px 20px;
+    
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+  
+  }
+
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  .dessert,.flavor {
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%;
+  }
+  .item p {
+    display:inline-block;
+    margin-top: 5px;
+    margin-bottom : 5px;
+    font-size: 18px;
+  }
+
+  /*darle estilo a mi link*/
+  a {
+    color: black;
+}
+/*darle estilo a mi link*/
+a:visited {
+  color: grey;
+}
+
+a:active {
+  color:white;
+}
+
+
+
+/*esto es para que cunado pases el mouse cambie dde color*/
+a:hover { 
+  color: brown; }.
+
+
+/*FOOTER */
+footer{
+  font-size:14px;
+}

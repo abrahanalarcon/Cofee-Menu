@@ -1,0 +1,113 @@
+<!--ESTE PROGRAMA SON HERRAMIENTAS BASICAS PARA CSS.-->
+<!--UN MENU DE Cafe-->
+
+<!DOCTYPE html> 
+<!--Todas las páginas deben comenzar con Esta cadena especial se conoce como declaración
+ y garantiza que el navegador intente cumplir con las especificaciones de toda la industria.-->
+
+
+<!-- este es el archivo index-->
+
+<html lang="en">
+  <!-- Agregue el atributo
+     lang con el valor en a la etiqueta html de 
+     apertura para especificar que el idioma de la
+      página es el inglés. -->
+
+
+  <!-- agregregamos un head con su titutlo -->
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+  <!-- agregregamos el head  -->
+  <!-- Este es un vinculo para tomar el stylo del arcivo css.  -->
+  <link rel="stylesheet" href="styles.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  
+  <body>
+
+    <!--El elemento div se utiliza principalmente con fines de diseño,
+     a diferencia de los otros elementos de contenido que ha utilizado hasta ahora. -->
+
+
+     <!-- PRIMER DIV -->
+    <div class=menu> <!-- le ponemos la clase en menu que esta en css-->
+     <main>
+      <h1>CAMPER CAFE</h1>
+      <!-- un ejemeplo de como tu exceptuar un elemento de una clase ,que fue predefinada para todos de su misma clase-->
+      <p class="established">Est. 2020</p>
+
+      <!-- esto es una clase de diseno-->
+      <hr>
+
+
+      <!-- Primera seccion -->
+      <section>
+        <h2>Coffee</h2>
+        <!-- una forma simplede agregar una foto-->
+        <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg"
+       alt="coffee icon">
+       <!-- PRIMER ARTICULO-->
+        <article class="item">
+          <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+        </article >
+        <!-- SEGUNDO ARTICLO -->
+        <article class="item">
+          <p class="flavor">Caramel Macchiato </p><p class="price">3.75</p>
+        </article>
+        <!-- TERCER ARTICULO-->
+        <article class="item">
+          <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+        </article>
+        <!-- CUARTO ARTICULO -->
+        <article class="item">
+          <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+        </article>
+        <!-- QUINTO ARTICULO-->
+        <article class="item">
+          <p class="flavor">Mocha</p><p class="price">4.50</p>
+        </article>
+      </section>
+      <!-- Segunda  seccion -->
+      <section>
+        <h2>Desserts</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+        <article class="item">
+          <p class="dessert">Donut</p><p class="price">1.50</p>
+        </article>
+        <article class="item">
+          <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+        </article>
+        <article class="item">
+          <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+        </article>
+        <article class="item">
+        <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+        </article>
+      </section>
+    </main>
+    <!-- Segundo diseno-->
+    <hr class="bottom-line">
+    <footer>
+
+      <p>
+        <!-- un ejemeplo de como poner un vinculo y te lleva a otro pestaña sin alterar la actual-->
+        <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+      </p>
+      <!-- <p>
+         un ejemeplo de como poner un vinculo en la misma pestaña
+        <a href="https://www.freecodecamp.org">Visit our website</a>
+      </p> -->
+      <p class="address">A Basic CSS project</p>
+      
+    </footer>
+    
+    
+    </div>
+  </body>
+
+
+</html>
